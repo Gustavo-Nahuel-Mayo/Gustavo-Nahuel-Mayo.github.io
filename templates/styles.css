@@ -1,0 +1,81 @@
+body{
+    background-image: url("/Nueva_carpeta/img/fondo.png");
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    font-size: 20px;
+    background-size: 1200px;
+    background-repeat: repeat;
+    }
+    
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 40px;
+        text-shadow: black 2px 2px 0px;
+    }
+    #ingredientes{
+        color: rgb(0, 0, 0);
+        size: 10px 10px;
+        text-shadow:rgba(0, 0, 0, 0.479) 1px 1px 1px;
+        border: 1px white solid;
+        border-color: white;
+        border-radius: 10px;
+        border-width: 3px;
+        background:linear-gradient(to right,#33d624d0, #fdfdfdd5, #f10808be);
+    }
+    nav{
+    background:linear-gradient(to right,#33d624b7, #fdfdfdad, #f1080886);
+    text-shadow: none;  
+    }
+    a{
+        color: whitesmoke;
+        animation:ease-in;
+        text-shadow: none;
+    }
+    span{
+        color: red;
+        border: red;
+        text-shadow: none;
+    }
+    #muestraDePizzas img:hover{
+        transform: scale(1.8);
+    }
+    #muestraDePizzas img{
+        transition: all 0.5 linear;
+    }
+    #carouselExampleFade{
+        transform: none;
+        transition:none;
+        size: 100px;
+    }
+    #PizzaWorld{
+        color: silver;
+        animation: ease-in;
+        
+    }
+    #home{
+        color: black;
+        size: 10px;
+        animation: ease-in;
+    }
+    #logo img{
+        size: 15px 15px;
+    }
+    .navbar {
+        position:relative;
+        display: ruby;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+    .form-text{
+        color:  white;
+        font-size: 12px;
+    }
+    .form-check-input{
+        padding: 10px 10px 10px;
+    }
